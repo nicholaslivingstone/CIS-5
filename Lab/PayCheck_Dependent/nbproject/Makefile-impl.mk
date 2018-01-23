@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=PayCheck V1
+PROJECTNAME=PayCheck_Dependent
 
 # Active Configuration
 DEFAULTCONF=Debug
