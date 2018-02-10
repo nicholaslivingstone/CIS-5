@@ -397,7 +397,7 @@ int main(int argc, char** argv) {
             P2HITCONT = 0,
             P1ATTACK[10][10] = { 0 },
             P2ATTACK[10][10] = { 0 },
-            turn = 1;
+            turn = 0;
     
     do{
         turn++;
