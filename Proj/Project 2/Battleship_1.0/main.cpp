@@ -233,8 +233,7 @@ int main(int argc, char** argv) {
     }
     
     GameBoard(P1BOARD);
-    cout << endl << "To Pass off to" << P2NAME << "Press enter";
-    getchar();
+    
     
     //jump 20 lines to clear board
     for (int i; i < 20; i++)
@@ -244,6 +243,7 @@ int main(int argc, char** argv) {
     
     
     //PLAYER 2 SETUP
+    BlankBoard();
     cout << P2NAME << endl; 
             "Enter an orientation(h/v), row, and column for each ship\n"
             "Each separated by spaces\n"
@@ -387,6 +387,7 @@ int main(int argc, char** argv) {
     }
     
     GameBoard(P2BOARD);
+
     
         //jump 20 lines to clear board
     for (int i; i < 20; i++)
@@ -415,8 +416,7 @@ int main(int argc, char** argv) {
             P1ATTACK[rownum][col] = 9;
         }
         PrintBoard(P1ATTACK);
-        cout << "Press Enter to swap players";
-        getchar();
+
         
         for (int i; i < 20; i++)
         cout << endl; 
@@ -437,8 +437,6 @@ int main(int argc, char** argv) {
             P2ATTACK[rownum][col] = 9;
         }
         PrintBoard(P2ATTACK);
-        cout << "Press Enter to swap players";
-        getchar();
         
         for (int i; i < 20; i++)
         cout << endl; 
